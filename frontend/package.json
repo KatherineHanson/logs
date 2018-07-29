@@ -59,9 +59,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/witnesby/foo.git"
+    "url": "git+https://github.com/KatherineHanson/logs.git"
   },
   "bugs": {
-    "url": "https://github.com/witnesby/foo/issues"
+    "url": "https://github.com/KatherineHanson/logs/issues"
   }
 }

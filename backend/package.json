@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/witnesby/foo.git"
+    "url": "git+https://github.com/KatherineHanson/logs.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/witnesby/foo/issues"
+    "url": "https://github.com/KatherineHanson/logs/issues"
   },
   "devDependencies": {
     "aws-sdk-mock": "^1.7.0",
