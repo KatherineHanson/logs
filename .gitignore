@@ -98,6 +98,19 @@ typings/
 # Optional REPL history
 .node_repl_history
 
+### Vim ###
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+
+# auto-generated tag files
+tags
+
 # Output of 'npm pack'
 *.tgz
 
@@ -136,5 +149,13 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+###### Personal
+.tern-project
+.vscode
+build
+temp
+.env
+db
 
 # End of https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode

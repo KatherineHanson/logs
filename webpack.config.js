@@ -31,13 +31,13 @@ if(production){
 module.exports = {
   plugins,
   devtool: production ? undefined : 'source-map',
-  entry: `${__dirname}/src/main.js`,
+  entry: `${__dirname}/frontend/src/main.js`,
   devServer: {
     historyApiFallback: true,
   },
   output: {
     filename: 'bundle.[hash].js',
-    path: `${__dirname}/build`,
+    path: `${__dirname}/frontend/build`,
     publicPath: process.env.CDN_URL,
   },
   module: {
@@ -87,7 +87,7 @@ module.exports = {
               loader: 'sass-loader',
               options: {
                 sourceMap: production ? false : true,
-                includePaths: [`${__dirname}/src/style`],
+                includePaths: [`${__dirname}/frontend/src/style`],
               },
             },
           ],
