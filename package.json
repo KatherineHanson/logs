@@ -20,6 +20,7 @@
     "dboff": "killall mongod"
   },
   "engines": {
+    "npm": "6.1.x",
     "node": "8.4.0"
   },
   "author": "katherinemariehanson@gmail.com",
