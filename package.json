@@ -17,7 +17,8 @@
     "start": "node ./backend/index.js",
     "lint": "eslint .",
     "dbon": "mkdir -p ./backend/db && mongod --dbpath ./backend/db",
-    "dboff": "killall mongod"
+    "dboff": "killall mongod",
+    "postinstall": "npm run build" 
   },
   "engines": {
     "npm": "6.1.x",
